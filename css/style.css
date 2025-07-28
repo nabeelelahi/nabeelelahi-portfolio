@@ -1,6 +1,6 @@
 @charset "utf-8";
 :root {
-  --mc: #1AA9D5;
+  --mc: #fff;
   --tc: #888;
 }
 html {
@@ -15,7 +15,7 @@ body {
   letter-spacing: 0;
   font-weight: 400;
   color: #888;
-  background-color: #1d1b19;
+  background-color: #000;
   word-break: break-word;
 }
 .fn__svg {
@@ -396,7 +396,7 @@ a:focus {
   left: 0;
   width: 100%;
   bottom: 0;
-  background-color: #1d1b19;
+  background-color: #000;
   opacity: 0.9;
   transform: translateX(-102%);
   transition: all 1s ease;
@@ -1736,7 +1736,7 @@ a:focus {
   -webkit-transform: scale(0.75) translateY(-85%);
   transform: scale(0.75) translateY(-85%);
   color: var(--mc);
-  background: #1d1b19;
+  background: #000;
   z-index: 33;
   padding-right: 30px;
   margin-left: 10px;
@@ -1988,7 +1988,7 @@ a:focus {
   color: #7c7165;
 }
 .resumo_fn_intro .title_holder h3 a {
-  color: #1d1b19;
+  color: #000;
   text-decoration: none;
 }
 .resumo_fn_intro .v_list {
@@ -2078,7 +2078,7 @@ a:focus {
   min-width: 100%;
 }
 .resumo_fn_intro .v_list .right {
-  background-color: #1d1b19;
+  background-color: #000;
 }
 .resumo_fn_intro #footer p {
   text-align: center;
