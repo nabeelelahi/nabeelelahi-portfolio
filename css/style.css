@@ -847,10 +847,10 @@ a:focus {
   width: 100%;
   float: left;
   clear: both;
-  background-color: #181715;
+  /* background-color: #181715; */
   position: relative;
   padding: 42px 40px 43px;
-  border: 1px solid #151412;
+  border: 1px solid #fff;
 }
 .resumo_fn_boxed_list .item:after {
   content: "";
@@ -860,7 +860,7 @@ a:focus {
   left: -1px;
   top: 50%;
   margin-top: -25px;
-  background-color: rgba(255, 255, 255, 0.2);
+  /* background-color: rgba(255, 255, 255, 0.2); */
   transition: all 0.5s 1s ease;
 }
 .resumo_fn_boxed_list .done .item:after {
@@ -1341,8 +1341,8 @@ a:focus {
   display: -ms-flex;
   display: -o-flex;
   display: flex;
-  background-color: #181715;
-  border: 1px solid #151412;
+  /* background-color: #181715; */
+  border: 0.25px solid #fff;
 }
 .resumo_fn_service_list .item_right {
   width: 30%;
